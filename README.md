@@ -124,8 +124,15 @@ Tespit dosyası, json dosya formatında olmalıdır. Tespit edilen her bir nesne
     },
 ]
 ```
+Burada bounding box şunları içermelidir:
+
+```
+bbox = [x1, y1, w, h]
+```
+(x1, y1) kutunun sol üst nokta koordinatı, (w, h) ise kutunun genişlik ve yüksekliğidir.
 
 Her bir tespit nesnesini oluşturmak için kod örneği:
+
 ```
 image_name = 150
 label = 2
