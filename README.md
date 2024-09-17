@@ -1,5 +1,5 @@
 
-# mAP@50 Hesaplayıcı
+# mAP50 Hesaplayıcı
 
 Bu Python kodu, bir dizindeki birden fazla tespit (detection) dosyasını bir açıklama dosyasına (annotation file) karşı değerlendirir ve her tespit dosyasının mAP@50 (Mean Average Precision at IoU threshold 0.50) skorunu hesaplayıp sıralar.
 
