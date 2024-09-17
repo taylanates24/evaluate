@@ -20,7 +20,10 @@ Bu projeyi kullanmak için şu adımları izleyin:
     ```bash
     pip install -r requirements.txt
     ```
-
+    ya da,
+   ```bash
+    pip install pycocotools
+    ```
 > `requirements.txt` dosyası eval_json fonksiyonunun bağlı olduğu paketleri içermelidir.
 
 ## Kullanım
