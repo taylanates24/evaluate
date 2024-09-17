@@ -139,4 +139,4 @@ detection = {
     'score': float("{:.8f}".format(score.item()))
 }
 ```
-Örnek tespıt dosyası example_detection.json olarak oluşturuldu. 
+Örnek tespıt dosyası `example_detection.json` olarak oluşturuldu. 
