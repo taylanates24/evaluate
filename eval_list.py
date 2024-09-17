@@ -15,7 +15,8 @@ def evaluate_multiple_detections(ann_file, det_files):
     sorted_results = sorted(results, key=lambda x: x[1], reverse=True)
 
     for det_file, map50 in sorted_results:
-        print(f'{det_file}, mAP@50: {map50}')
+        det_name = det_file.split('.')[0]
+        print(f'{det_name}, mAP@50: {map50}')
 
 
 def main():
